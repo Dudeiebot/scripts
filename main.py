@@ -1,5 +1,8 @@
 import pandas as pd
 
+"""
+filtering and removing duplicates in csv or excel file
+"""
 # Load the Excel file
 file_path = "~/"  # Replace with your actual file path
 df = pd.read_csv(file_path)
